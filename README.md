@@ -1,92 +1,152 @@
-# ⚖️ ROI Criminal Justice System: Tripartite Actor Analysis (Advanced Threat Vectors)
+# ⚖️ ROI Criminal Justice System: Tripartite Actor Analysis — Hate Crime & Combined Offences Edition
 
-[![Jurisdiction: Republic of Ireland](https://img.shields.io/badge/Jurisdiction-Republic_of_Ireland-green.svg)](#)
-[![System: Common Law](https://img.shields.io/badge/System-Common_Law-blue.svg)](#)
-[![Status: Active Research](https://img.shields.io/badge/Status-Active_Research-orange.svg)](#)
-[![Last Updated: May 2026](https://img.shields.io/badge/Last_Updated-May_2026-lightgrey.svg)](#)
-
-## 📖 Overview
-This repository analyses the Republic of Ireland criminal justice pipeline through a **tripartite lens**:
-1. **The Victim's Journey:** Reporting, protection, evidentiary burdens, and post-trial realities.
-2. **The Offender's Journey:** Investigation, bail, sentencing, and release.
-3. **The Third-Party Ecosystem:** The network of landlords, property management companies (PMCs), charities, solicitors, regulators, forensic specialists, telecommunications providers, and commercial entities that shape outcomes.
-
-This update (May 2026) specifically integrates advanced, unconventional threat vectors including **acoustic side-channel attacks**, **coercive hardwired IoT surveillance**, **AI voice impersonation**, and **multi-disciplinary professional impersonation**.
+## 📖 What's New in This Version
+1. **Hate Crime specifics**: The *Criminal Justice (Hate Offences) Act 2024* (in force 31 December 2024).
+2. **Combined Offences Matrix**: Surveillance + acoustic harassment mapped as an integrated scenario.
+3. **Speed & Timeline Assessment**: A brutally honest breakdown of **how quickly** Garda involvement can lead to a cease/halt — and why, in most non-domestic cases, the answer is **not quickly at all**.
 
 ---
 
-## 🏛 Core Legal Frameworks
-*   **Stalking & Surveillance:** *Criminal Justice (Miscellaneous Provisions) Act 2023* & *Interception of Postal Packets and Telecommunications Messages (Regulation) Act 1993*
-*   **Cyber & Device Hacking:** *Criminal Justice (Offences Relating to Information Systems) Act 2017*
-*   **Property Damage & Sabotage:** *Criminal Damage Act 1991*
-*   **Fraud, Deception & Burglary:** *Criminal Justice (Theft and Fraud Offences) Act 2001*
-*   **Professional Impersonation Statutes:** *Garda Síochána Act 2005* (Gardaí), *Medical Practitioners Act 2007* (Doctors/HSE), *Solicitors Acts 1954-2015* (Lawyers).
-*   **Harassment via Comms:** *Post Office (Amendment) Act 1951* (as amended for telecommunications)
-*   **Housing & Tenancy:** *Residential Tenancies (Miscellaneous Provisions) Act 2026* 
+## 🏛 Core Legal Frameworks (Updated)
+
+| Legislation | Status | Key Effect |
+|-------------|--------|------------|
+| **Criminal Justice (Hate Offences) Act 2024** | In force since **31 Dec 2024** | Creates aggravated forms of existing offences (assault, criminal damage, public order, coercion, etc.) where hatred is demonstrated or motivated by protected characteristics.  |
+| **Criminal Justice (Miscellaneous Provisions) Act 2023** | Stalking offence in force since **1 Nov 2023** | Standalone stalking offence (max 10 years); widened harassment to include conduct interfering with peace/privacy. **Civil protection orders for non-domestic stalking legislated but NOT yet commenced.**  |
+| **Domestic Violence Act 2018** | In force | Emergency/Interim Barring Orders available **only for intimate/co-habiting relationships**.  |
+| **Residential Tenancies (Miscellaneous Provisions) Act 2026** | Effective 1 March 2026 | Strengthens tenant security; no-fault termination restricted for large landlords.  |
 
 ---
 
-## 🚦 Complex Crime Scenario Matrices (Tripartite)
+## 🔴 Hate Crime & Hate Incidents: Specifics
 
-### Matrix 1: Advanced Digital Surveillance, Cyber Intrusion & Audio Vectors
-*Covering: Device Hacking, Acoustic Side-Channel Attacks, Hardwired Covert Installations (RF/IoT), and Digital/Audio Impersonation.*
+### What the 2024 Act Does
+The *Criminal Justice (Hate Offences) Act 2024* does **not** create a standalone "hate incident" offence. There must first be an underlying criminal offence. If that offence is proven to be **motivated by hatred** or **demonstrates hatred** toward a protected characteristic, it becomes an aggravated offence with a higher sentence. 
 
-| Crime Scenario | The Victim's Journey | The Offender's Journey | The Third-Party Ecosystem |
+### Protected Characteristics
+Race, colour, nationality, religion, national or ethnic origin, descent, disability, gender, sex characteristics, and sexual orientation. 
+
+### Aggravated Offences Available
+| Base Offence | Aggravated Form | Max Sentence (Indictment) |
+|--------------|-----------------|---------------------------|
+| Assault (s.2 NFOAPA 1997) | Assault aggravated by hatred | 12 years  |
+| Criminal Damage (s.2 CDA 1991) | Damaging property aggravated by hatred | 12 years (non-arson) / Life (arson)  |
+| Public Order (ss.6, 7, 11, 18 POA 1994) | Various aggravated forms | 6–12 months summary; up to 7 years indictment  |
+| Coercion (s.9 NFOAPA 1997) | Coercion aggravated by hatred | 12 years  |
+| Threats to kill / serious harm (s.5 NFOAPA 1997) | Threats aggravated by hatred | 12 years  |
+
+### Hate Incidents vs. Hate Crimes
+A **hate incident** is any non-criminal action perceived by the victim or a witness as motivated by hostility toward a protected characteristic. In ROI, **hate incidents without an underlying offence are not criminal**. Gardaí may record them for intelligence but cannot charge. This is distinct from the UK/NI system where ASBO-style civil orders exist.
+
+### Enforcement Data
+In the first year (2025), **46 court proceedings** were initiated under the Act. Of these, **40 were charges/summons** under NFOAPA 1997 aggravated by hatred. **Race** was the most cited protected characteristic (18 instances). 
+
+---
+
+## 🚦 Matrix 7: Combined Surveillance + Acoustic Harassment *(New)*
+*Covering: Directed sound, infrasound, modified building infrastructure, smart-device surveillance, and GPS tracking used in concert to harass a victim in their home and outside.*
+
+This is one of the most procedurally complex scenarios in the Irish system because it spans **criminal law** (stalking, harassment), **environmental law** (noise nuisance), **data protection** (surveillance), **housing law** (tenancy/landlord duties), and **civil litigation** (nuisance injunctions). There is **no single court or agency with jurisdiction over the whole pattern**.
+
+| Dimension | The Victim's Journey | The Offender's Journey | The Third-Party Ecosystem |
 | :--- | :--- | :--- | :--- |
-| **Personal Device Hack & Acoustic Side-Channel Attacks** <br>*(Remote software access, AND/OR capturing keystrokes/data via ambient acoustic emissions from CPU coil whine/typing)* | **Reporting:** Highly technical barrier. Victims of side-channel attacks are rarely believed. Hardware must be surrendered to GNCCB.<br>**Protection:** Near zero physical protection. Relies on shielding (Faraday bags) or acoustic masking apps.<br>**Gap:** Side-channel attacks operate in a legal grey area—if no software is "breached" (just listening to ambient noise), it challenges the 2017 Info Systems Act definitions. | **Investigation:** Requires highly specialized digital and acoustic forensics. IP tracing and spectrum analysis.<br>**Pre-Trial:** High likelihood of bail.<br>**Sentencing:** Up to 10 years for software hacks. Side-channel interception may be prosecuted under the *1993 Interception Act* or *2023 Stalking Act*. | **GNCCB:** Forensic backlog delays standard hacks; often lacks tools to prove side-channel ambient data theft.<br>**Acoustic/Cyber Consultants:** Privately retained to sweep for side-channel vulnerabilities.<br>**Hardware Manufacturers:** OEMs (Apple, Dell) may be subpoenaed regarding device emission vulnerabilities.<br>**ComReg (Commission for Communications Regulation):** Regulatory oversight of interception technologies. |
-| **Hardwired Covert Surveillance** <br>*(Illegal installation of hidden cameras, mics, speakers, RF antennas, 5G IoT bugs, or altering power/network cabling onsite)* | **Reporting:** Victim discovers physical alterations to property. Severe psychological impact (loss of physical sanctuary).<br>**Protection:** Can seek civil injunctions. Victim must often pay out-of-pocket to re-wire property to feel safe.<br>**Legal Basis:** Bridges *Stalking (2023)*, *Criminal Damage Act 1991* (altering property), and *Burglary* (entering as trespasser to commit damage). | **Investigation:** Gardaí must identify purchase records of IoT devices, SIM cards in 5G bugs, and installation footprint.<br>**Pre-Trial:** Bail standard, with strict "stay away" conditions.<br>**Sentencing:** Aggravated if linked to coercive control. Criminal Damage (max 10 years); Stalking (max 10 years). | **PMCs / Landlords:** Crucial evidence holders. PMCs log contractor access. If a landlord installed the equipment, DPC issues massive GDPR fines alongside criminal prosecution.<br>**Electricians / TSCM Sweepers:** Technical Surveillance Counter-Measures (TSCM) experts are privately hired to find hardwired bugs.<br>**Telecoms (ISPs/Mobile Networks):** Subpoenaed to trace the SIM cards transmitting data from 5G IoT bugs. |
-| **Digital & Audio Impersonation** <br>*(AI Voice cloning, deepfakes, spoofed VOIP calls for acoustic harassment, vishing)* | **Reporting:** Victim receives targeted audio harassment or fraud calls using cloned voices of loved ones/authorities. Very high trauma.<br>**Protection:** Blocking numbers is ineffective against VOIP spoofing. Victim must change primary contact methods.<br>**Legal Basis:** *Post Office Act 1951* (malicious calls), *Stalking (2023)*, or *Theft/Fraud (2001)* if used for financial gain. | **Investigation:** Cross-border VOIP tracing is notoriously difficult. Requires MLATs.<br>**Pre-Trial:** Bail common.<br>**Sentencing:** Fraud carries up to 10 years; malicious communications max 6 months on summary, but Stalking upgrade yields up to 10 years. | **Telecoms Providers:** Essential for call-tracing, but VOIP spoofing often bypasses domestic ISP controls.<br>**AI/Deepfake Platforms:** (e.g., ElevenLabs). Gardaí must request data via international law enforcement channels.<br>**Banks:** If audio impersonation is used for Vishing (voice phishing) to bypass security, banks are involved via Section 19 reports. |
+| **Immediate Reporting** | Victim reports to **local Garda station**. Often met with scepticism if no visible injury. Must also report noise to **Environmental Health Officer (EHO)** and surveillance to **Data Protection Commission (DPC)** if landlord/PMC cameras are involved. | No immediate action unless caught in the act. If identified, Gardaí may caution or investigate under **s.23 CJ(Misc Provisions) Act 2023** (stalking) or **s.10 POA 1994** (harassment). | **Local Garda:** First responder; often lacks acoustic/cyber forensic training.<br>**EHO:** Can issue abatement notice for statutory nuisance but **cannot remove perpetrator from their own home**.<br>**DPC:** Investigates unlawful CCTV/smart-meter data processing.<br>**Threshold:** Advises if victim faces retaliation eviction. |
+| **Forensic Evidence Gathering** | Victim must privately retain **acoustic consultant** (€2,000–€10,000+) to measure dB levels, frequency spectra, and source-localise emissions. Must also surrender devices to **GNCCB** for months if digital surveillance is suspected.  | If charged, defence will challenge acoustic evidence as unreliable or from an unaccredited source. May claim the noise is ordinary household activity. | **Acoustic Consultants:** Privately funded; no state panel exists for victims.<br>**GNCCB:** 235-case backlog; victims lose phones/laptops for months. <br>**Digital First Responders:** 200 trained nationally; can triage locally but equipment is inconsistent. <br>**PMCs/Landlords:** Hold maintenance records, access logs, and CCTV. Often reluctant to release without court order. |
+| **Criminal Investigation Phase** | Victim provides statements, diaries, and medical reports documenting sleep deprivation, anxiety, and PTSD. Must prove **intent** and **pattern** (for stalking) or **serious interference with peace** (for harassment). | Gardaí investigate. If evidence is strong, file summons/charge. If perpetrator is a neighbour, they remain in their home throughout. Bail is standard under **O'Callaghan principles** unless flight risk.  | **Garda GNPSB:** Only involved if domestic/intimate context.<br>**Local Garda:** Handles non-domestic cases; may deprioritise due to complexity.<br>**Medical Professionals:** Document psychiatric injury; evidence is critical for proving "serious alarm and distress" under stalking offence. |
+| **Pre-Trial / Interim Relief** | **Critical gap:** If the perpetrator is **not** an intimate partner, there is **NO emergency civil protection order** available in Ireland as of May 2026. The civil protection orders under the 2023 Act are **not yet commenced**. <br><br>Victim may seek a **civil injunction for nuisance** in the Circuit Court, but this takes **weeks to months** and requires legal representation (€5,000+). | If charged, court may impose bail conditions: exclusion zones, no contact, device surrender. But bail conditions only apply **after charge**, which can take months. | **Housing Solicitors (FLAC/Private):** Circuit Court injunctions are expensive and slow; FLAC's capacity is limited (100 housing clients in 2024). <br>**RTB:** If both parties are tenants, RTB dispute resolution runs parallel but is non-criminal and slow.<br>**Insurance:** Rarely covers interim legal costs for harassment. |
+| **Trial / Sentencing** | If stalking is proven, max 10 years. However, first-time offenders often receive **suspended sentences or probation** unless physical violence is proven. Acoustic harassment alone rarely results in immediate custody. | Sentencing considers prior record, mental health, and whether hatred was a factor (Hate Offences Act 2024 if applicable). Previous convictions against the same victim are a statutory aggravating factor.  | **Criminal Defence Solicitors:** Challenge chain of custody for device evidence; argue mistaken identity on acoustic source.<br>**DPP:** Decides whether to prosecute; may decline if forensic evidence is weak.<br>**Probation Service:** Supervises community orders or suspended sentences. |
+| **Post-Conviction / Ongoing Harm** | Even if convicted, a suspended sentence means the perpetrator returns to their home — potentially next door. Victim may be forced to move. | If imprisoned, standard remission (25%) applies; release in months for short sentences. If barring order was in place (domestic context only), it expires. | **Local Authorities:** Emergency housing is bottlenecked; victims often return to unsafe homes.<br>**Threshold:** Assists with tenancy termination and rehousing.<br>**Cuan / Women's Aid:** Only assist if domestic/intimate context; non-domestic victims fall outside their remit. |
 
 ---
 
-### Matrix 2: Physical Intrusion, Deception & Unconventional Harassment
-*Covering: Trespassing by Artifice, Professional Impersonation, and Directed Acoustic/EM Harassment.*
+## ⏱️ Speed & Timeline Assessment: How Fast Can It Actually Stop?
 
-| Crime Scenario | The Victim's Journey | The Offender's Journey | The Third-Party Ecosystem |
-| :--- | :--- | :--- | :--- |
-| **Acoustic Violence / EM Harassment** <br>*(Using directed sound/frequencies, ultrasonic arrays, or smart speakers to cause physical/psychological distress)* | **Reporting:** Victim must prove *source* and *intent* of invisible emission. Often dismissed initially as a mental health episode or nuisance dispute.<br>**Protection:** Relies on civil EPA noise injunctions initially. Medical reports required to prove psychiatric/physical harm (Assault). | **Investigation:** Requires expert acoustic forensics. Hardware (e.g., directional speakers, LRADs) must be seized.<br>**Pre-Trial:** Seldom reaches criminal charge without physical injury. Bail guaranteed.<br>**Sentencing:** If prosecuted as Assault (s.3 NFOAPA), up to 5 years. | **Environmental Health Officers (EHOs):** Primary investigators for statutory nuisance. Often the *only* state actor with acoustic measurement capacity.<br>**Acoustic Consultants:** Privately retained to measure dB levels, frequency spectra, and signal propagation.<br>**Medical Professionals:** Document somatic and psychiatric injury (tinnitus, sleep deprivation).<br>**Landlords / PMCs:** Infrastructure may be used (e.g., ducting) to direct sound. |
-| **State & Professional Impersonation** <br>*(Posing as Gardaí, HSE Medical Staff, Tusla Social Workers, Solicitors, or Gov Dept Employees to gain entry, coerce, or harass)* | **Reporting:** Extreme breach of trust. If offender poses as Tusla/HSE to threaten child removal or forced medical compliance, the psychological terror is profound.<br>**Protection:** Gardaí prioritize these as severe threats to state integrity.<br>**Legal Basis:** Entering a home under false professional pretences is **Burglary** (*Trespass by Artifice* - s.12 Theft & Fraud Act 2001). Specific regulatory acts (Garda Act 2005, Medical Act 2007) add concurrent charges. | **Investigation:** Swift. Identity verification with the spoofed agency. CCTV and witness statements.<br>**Pre-Trial:** Bail may be refused due to risk of witness intimidation and public threat.<br>**Sentencing:** Burglary (14 years); Garda impersonation (5 years); Fraud by deception (5 years). Custody is highly likely. | **Regulatory Bodies:** Medical Council, Law Society, Tusla, and Garda Ombudsman (GSOC) may be involved in verifying credentials and issuing public warnings.<br>**Media:** High public interest; risk of prejudicial reporting.<br>**Employers/Gov Depts:** Provide immediate witness statements confirming the offender is an imposter. |
-| **Home Intrusion / Covert Entry** <br>*(Trespassing at night to watch, intimidate, or install devices—without necessarily stealing)* | **Reporting:** Victim relies on CCTV/Ring doorbell footage or TSCM bug sweeps.<br>**Harm:** Victim experiences severe hyper-vigilance.<br>**Legal Basis:** *CJ (Public Order) Act 1994* (Trespass causing fear) or *Criminal Damage* if altering infrastructure. | **Investigation:** Identification via CCTV, physical forensics (fingerprints on altered wiring), or caught on premises.<br>**Pre-Trial:** Bail standard, with exclusion zones.<br>**Sentencing:** Fines, community service, or up to 6 months per offence on summary disposal. | **Security Firms / TSCM Operators:** Private sector often discovers the intrusion before law enforcement.<br>**PMCs / Locksmiths:** If keys were cloned or smart-locks bypassed, PMC access logs are primary evidence.<br>**Neighbours:** Witness events but are often reluctant to provide statements due to fear of retaliation. |
+This is the question that matters most to victims. The answer depends entirely on **the relationship between victim and perpetrator**.
 
-*(Note: Matrices for **Domestic Abuse / Coercive Control** and **Severe Transnational Threats (Trafficking/Terrorism)** remain as foundational pathways but are heavily influenced by the advanced surveillance tactics outlined above.)*
+### Scenario A: Domestic / Intimate Relationship
+| Stage | Timeline | Mechanism |
+|-------|----------|-----------|
+| **Immediate halt** | **Same day** (hours) | **Emergency Barring Order** (ex parte, District Court). Gardaí can arrange a special sitting. Order lasts up to 8 working days, removes respondent from home.  |
+| **Interim protection** | **Same day** (hours) | **Interim Barring Order** (if property test met) or **Protection Order** (if respondent not resident).  |
+| **Service on Gardaí** | **Immediate** | Clerk must send certified copy to local Garda station "as soon as practicable."  |
+| **Enforcement** | **Immediate** | Breach = arrest without warrant; Class B fine (up to €4,000) or 12 months imprisonment.  |
+| **Full hearing** | **Weeks** | Barring Order hearing on notice to respondent. |
 
----
+**Verdict:** In a domestic context, the system **can** halt harassment within hours. The bottleneck is victim awareness and Garda willingness to facilitate a special court sitting.
 
-## 🛑 Systemic Gaps & Vulnerabilities (Advanced Threat Focus)
+### Scenario B: Non-Domestic (Neighbour, Stranger, Acquaintance, Tenant-on-Tenant)
+| Stage | Timeline | Mechanism |
+|-------|----------|-----------|
+| **Garda complaint** | **Day 1** | Victim reports to local station. No statutory deadline for Garda to open formal investigation. |
+| **Initial Garda response** | **Days to weeks** | Local Garda may visit, caution, or log as intelligence. 15% of public complaints to Fiosrú relate to investigation timeliness/quality.  |
+| **Forensic evidence** | **Months** | GNCCB device backlog (235 cases). Acoustic consultants privately retained (weeks to schedule).  |
+| **Charge/summons** | **Months to 1+ years** | If Gardaí gather sufficient evidence. Many acoustic harassment cases are dropped at this stage due to inability to prove intent/source. |
+| **Bail conditions** | **After charge only** | Exclusion zones, no contact, curfew. But perpetrator remains in their own home. |
+| **Civil injunction (nuisance)** | **2–6 months** | Circuit Court. Requires legal representation, expert reports, and service. Cost: €5,000–€20,000+. |
+| **EHO abatement notice** | **Weeks to months** | EHO investigates, issues notice. But this regulates noise levels; it does **not** remove the perpetrator or stop surveillance. |
+| **Criminal trial** | **1–2 years** | District or Circuit Court. First-time offenders often receive suspended sentences. |
 
-### 1. The Acoustic/Side-Channel Grey Area
-Irish criminal law is built on physical breaches or software hacks. **Acoustic side-channel attacks** (stealing data by recording the sound of a CPU or keyboard) do not clearly fit the *Criminal Justice (Offences Relating to Information Systems) Act 2017* because the attacker technically only "listened" to ambient air. This requires prosecutors to stretch the *Interception Act 1993* or rely on Stalking laws, creating a massive loophole for highly sophisticated corporate or state-sponsored espionage against individuals.
+**Verdict:** In a non-domestic context, there is **no fast-track mechanism** to stop combined surveillance and acoustic harassment. The victim is in a **procedural limbo** for months, often years. The perpetrator typically remains in their home throughout.
 
-### 2. The Hardwired IoT / Cyber-Physical Divide
-When a perpetrator installs hardwired 5G cameras, mics, or modifies power cabling in a victim's home, the investigation is split. Local Gardaí treat it as physical *Criminal Damage* or *Trespass*, while the cyber element (where is the data streaming to?) requires the GNCCB. This jurisdictional split often leads to the physical bugs being removed and destroyed by victims/electricians before the digital footprint can be forensically preserved.
+### Why Non-Domestic Cases Are So Slow
 
-### 3. Voice Spoofing & Telecommunication Jurisdictions
-AI Voice Cloning and VOIP spoofing (using phone numbers that appear to be local Garda stations or HSE departments) are rampant. The gap lies with **telecommunications providers**. Under current ROI law, tracing a spoofed VOIP call routing through international jurisdictions requires Mutual Legal Assistance Treaties (MLATs) taking 6-18 months. By the time the source is found, the acoustic/audio harassment has irreparably harmed the victim.
-
-### 4. "Trespass by Artifice" Misclassification
-When an offender impersonates an HSE worker or Tusla agent to gain access to a home, frontline Gardaí often record it merely as "Impersonation" or "Public Order." Legally, gaining entry through deception with intent to commit an offence is **Burglary** under Section 12 of the *2001 Act*. Failure to charge it as Burglary drastically reduces the offender's potential sentence and limits bail-refusal powers.
-
-### 5. Private Sector Forensics vs. Public Backlogs
-To prove acoustic violence, side-channel attacks, or find hardwired bugs, victims must hire private **Technical Surveillance Counter-Measures (TSCM) experts** or Acoustic Engineers, costing thousands of Euros. The state does not fund this via Legal Aid. This creates a severe **two-tier justice system**: only wealthy victims can prove complex harassment.
-
----
-
-## 🛠 Reform Roadmap: Patching Advanced Vulnerabilities
-
-### Proposed "Patches" to the Justice System (2026-2027)
-- [ ] **Amend the Info Systems Act 2017:** Explicitly include "side-channel data exfiltration" and "ambient acoustic interception" in the definition of unlawful access/interception.
-- [ ] **State-Funded TSCM & Acoustic Panels:** Establish a publicly funded panel of TSCM sweepers and Acoustic Engineers that Gardaí can deploy for victims of coercive control and suspected hardware surveillance, circumventing the GNCCB backlog.
-- [ ] **ComReg VOIP Anti-Spoofing Mandate:** Legislate to force Irish ISPs and Telecoms to implement STIR/SHAKEN protocols (similar to the US) to instantly block spoofed domestic numbers, crippling audio impersonators.
-- [ ] **DPP Guidelines on Trespass by Artifice:** Issue clear prosecutorial directives that impersonating *any* professional (HSE, Solicitor, Govt Dept) to gain entry to a dwelling must be flagged and charged as Burglary, not merely a public order offence.
-- [ ] **Regulate Smart-Building PMCs:** Legislate that PMCs operating smart-buildings with integrated IoT networks must undergo independent cybersecurity audits, as vulnerable building networks are the primary vector for hardwired stalking installations.
+1. **No civil protection orders for non-domestic stalking**: The 2023 Act legislated for them but they are **not yet commenced**. Senator Lisa Chambers raised this as an urgent gap in August 2024. 
+2. **Jurisdictional fragmentation**: Gardaí handle the criminal stalking aspect; EHOs handle noise; DPC handles surveillance; RTB handles tenancy. No single agency coordinates.
+3. **Forensic desert**: There is **no state-funded acoustic forensic capability** for victims. Proving "directed sound" requires expensive private experts.
+4. **O'Callaghan bail principles**: Even if charged, the accused is likely granted bail because the test is attendance at trial, not risk of reoffending. 
+5. **Hate crime overlay**: If the harassment is motivated by hatred (race, disability, etc.), the Hate Offences Act 2024 increases sentences **after conviction**, but does **nothing** to speed up interim protection.
 
 ---
 
-## 🤝 Contributing
-This is an open, living document intended for legal researchers, criminologists, acoustic forensic engineers, and civic-tech developers.
-*   Spot a legislative change regarding AI or Deepfakes? Open an **Issue**.
-*   Have case-law precedent regarding Acoustic Violence, Side-Channel Attacks, or TSCM evidence? Submit a **Pull Request**.
+## 🛑 Systemic Gaps Specific to Combined Offences
 
-> **Disclaimer:** This repository is for educational and research purposes. It does not constitute formal legal advice. For legal assistance in the Republic of Ireland, consult a qualified solicitor. If you believe your devices are compromised by side-channel or hardwired surveillance, use safe, unconnected public hardware to seek help. If you are in immediate danger, dial `999` or `112`.
+### 1. The "Acoustic-Surveillance Gap"
+There is no Irish court that routinely hears combined cyber-physical harassment cases. A District Court judge may understand public order but not acoustic spectra; a Circuit Court judge may understand nuisance but not AirTag forensics. Victims must **educate the court** at their own expense.
 
---- END OF FILE ---
+### 2. The Non-Domestic Protection Vacuum
+Domestic violence victims have Emergency Barring Orders. Non-domestic stalking victims have **nothing equivalent**. They cannot force a neighbour to leave their own home without a criminal conviction or a costly civil injunction. This is the single largest procedural barrier to stopping harassment quickly.
+
+### 3. PMC / Landlord Evasion
+In multi-unit buildings, PMCs often claim harassment between tenants is a "private dispute" and refuse to release CCTV, access logs, or maintenance records. There is **no statutory duty** for PMCs to cooperate with Garda criminal investigations.
+
+### 4. Hate Crime Recording Without Remedy
+Gardaí may record a hate incident, but if there is no underlying criminal charge, the victim has no civil or criminal remedy. The Hate Offences Act 2024 is **purely sentencing enhancement**; it creates no new interim protective powers.
+
+### 5. Device Seizure Paradox
+Victims of surveillance must surrender their compromised devices to the GNCCB for forensic examination, leaving them without evidence-gathering capability for months. The backlog dropped to 235 cases but remains a critical bottleneck. 
+
+---
+
+## 🛠 Reform Roadmap: Combined Offences & Speed
+
+### Immediate (0–12 months)
+- [ ] **Commence civil protection orders for non-domestic stalking**: The 2023 Act provides the legislative basis; the Minister must sign the commencement order. This would allow non-domestic victims to seek exclusion orders without waiting for a criminal trial. 
+- [ ] **Garda circular on combined harassment**: Issue clear guidance that acoustic harassment + surveillance constitutes stalking under s.23 CJ(Misc Provisions) Act 2023, not merely a "civil dispute" or "neighbourhood row."
+- [ ] **Fast-track forensic triage**: Expand Digital First Responder capacity beyond 200 officers and equip every division with acoustic measurement kits for initial evidence preservation.
+
+### Medium-term (1–3 years)
+- [ ] **State-funded acoustic forensic panel**: Create a roster of accredited acoustic consultants available to victims on legal aid, eliminating the two-tier justice system where only wealthy victims can prove their case.
+- [ ] **Integrated Multi-Agency Response Teams**: Mandate joint response protocols for Gardaí, EHOs, and DPC where complaints span noise, surveillance, and stalking.
+- [ ] **PMC evidence retention duty**: Legislate that PMCs must retain CCTV and access logs for 90 days and produce them to Gardaí within 48 hours of a criminal complaint.
+
+### Structural (3–5 years)
+- [ ] **Specialist Harassment Courts**: Establish District Court lists with judges trained in cyber-physical harassment, acoustic evidence, and hate crime, similar to specialist domestic violence courts.
+- [ ] **Hate Incident Civil Remedy**: Introduce a civil injunction for hate incidents that do not meet the criminal threshold, allowing victims to seek court orders before an underlying offence is proven.
+- [ ] **Victim Device Replacement Scheme**: Fund replacement phones/laptops for victims whose devices are seized by GNCCB, so they are not digitally isolated during investigations.
+
+---
+
+## 📋 Summary: Realistic Expectations for Victims
+
+| Relationship | Fastest Possible Halt | Mechanism | Likely Outcome |
+|--------------|----------------------|-----------|----------------|
+| **Intimate partner / Cohabitant** | **Hours** | Emergency Barring Order (ex parte) | Perpetrator removed from home; breach = arrest. |
+| **Family member (non-cohabiting)** | **Days** | Safety Order / Protection Order | No removal from own home, but no-contact order. |
+| **Neighbour / Stranger / Tenant** | **Months to years** | Criminal prosecution + civil injunction | Perpetrator remains in home throughout; victim often forced to move. |
+| **Hate-motivated (any relationship)** | **No faster** | Same as above + aggravated sentencing | Hate element increases sentence **after conviction**, not speed of protection. |
+
+**Bottom line**: If your harasser is not your intimate partner, the Irish system — as of May 2026 — offers **no emergency mechanism** to make them stop immediately. Garda involvement begins a slow investigative process, but it does not, in itself, halt the harassment. Victims in this position are effectively told to **endure, document, and wait**.
+
+---
+
+> **Disclaimer:** This analysis is for educational and research purposes. It does not constitute legal advice. For assistance, contact [FLAC](https://www.flac.ie/) at (01) 906 1010, [Threshold](https://www.threshold.ie/) at 1800 454 454, or in emergencies dial **999 / 112**.
