@@ -1,232 +1,102 @@
-# Republic of Ireland Criminal Justice System: Analysis, Assessment & Review
+# ⚖️ ROI Criminal Justice System: Complex Crime Pathways
 
-## 1. Executive Summary
+[![Jurisdiction: Republic of Ireland](https://img.shields.io/badge/Jurisdiction-Republic_of_Ireland-green.svg)](#)
+[![System: Common Law](https://img.shields.io/badge/System-Common_Law-blue.svg)](#)
+[![Status: Active Research](https://img.shields.io/badge/Status-Active_Research-orange.svg)](#)
+[![Last Updated: 2026](https://img.shields.io/badge/Last_Updated-2026-lightgrey.svg)](#)
 
-The Republic of Ireland operates a **common-law adversarial system** with no formal sentencing guidelines currently in force, though the Judicial Council is developing them. The system is characterised by **wide judicial discretion** at sentencing, a **narrow spent-convictions regime**, and a **release framework dominated by executive remission** rather than structured parole for most prisoners. Recent reforms (2025–2026) signal a shift toward expanded community sanctions, electronic monitoring, and stronger probation oversight, but major gaps remain in parole capacity, court backlogs, and rehabilitation transparency.
+## 📖 Overview
+This repository provides a deep-dive analysis, assessment, and review of the Republic of Ireland (ROI) criminal justice system. It maps the procedural pathways for complex, high-harm, and emerging crimes—such as coercive control, acoustic/electronic harassment, cyber-intrusions, and domestic terrorism.
 
----
+Crucially, this project documents the system from **two distinct perspectives**: 
+1. **The Victim's Journey:** Protection mechanisms, evidentiary burdens, and post-trial realities.
+2. **The Offender's Journey:** Investigation, pre-trial bail conditions, and sentencing outcomes.
 
-## 2. The Criminal Justice Pipeline: Stage by Stage
-
-| Stage | Legal Basis & Key Features |
-|-------|---------------------------|
-| **Investigation & Detention** | An Garda Síochána investigate. Detention periods are strictly regulated. The right to legal advice and silence applies.  |
-| **Charge** | The DPP or Gardaí lay charges. A charge is an accusation, not a conviction.  |
-| **First Appearance** | **District Court**: procedural hearing, plea entry, bail/remand decision.  |
-| **Sending Forward / Trial** | • **District Court**: summary offences (minor)<br>• **Circuit Court**: indictable offences<br>• **Central Criminal Court**: murder, rape, treason<br>• **Special Criminal Court**: terrorism/organised crime (non-jury, 3 judges)  |
-| **Sentencing** | Judge considers offence, plea, prior record, mitigating/aggravating factors, victim impact, and rehabilitative potential. No binding guidelines yet, though the Judicial Council is drafting them.  |
-| **Appeal** | District Court → Circuit Court; higher courts → Court of Appeal; final appeal to Supreme Court on points of law.  |
-| **Post-Conviction Release** | Remission (automatic 25%, or enhanced up to 33%), temporary release, or parole (life sentences only).  |
-
----
-
-## 3. Court Architecture & Jurisdiction
-
-### Ordinary Courts
-- **District Court**: Handles minor offences, bail applications, and first appearances. No jury.
-- **Circuit Court**: Trials by judge and jury for more serious offences.
-- **Central Criminal Court**: High Court judge sitting alone or with jury for murder, rape, and treason.
-- **Court of Appeal**: Hears appeals from Circuit Court and Central Criminal Court.
-- **Supreme Court**: Final arbiter on constitutional and legal issues.
-
-### Special Criminal Court (SCC)
-A constitutionally sanctioned non-jury court established under the **Offences against the State Act 1939**, renewed annually by Oireachtas resolution. 
-
-- **Composition**: Three judges (from a panel of 19 High Court, Circuit Court, and District Court judges). 
-- **Jurisdiction**: Automatic for terrorism offences and certain organised crime offences under the **Criminal Justice (Amendment) Act 2009**; other serious offences may be sent there if the DPP certifies that ordinary courts are inadequate to secure justice. 
-- **Current usage**: In 2024, only **3 trials involving 8 defendants** were heard — the vast majority of scheduled offences still go to ordinary courts. 
-- **Reform**: The Independent Review Group (Peart, 2023) recommended reforms. The Government accepts the majority recommendations in principle and is consulting on a new standing non-jury court, though details are not yet finalised. 
+## 📑 Table of Contents
+1. [Core Legal Frameworks](#core-legal-frameworks)
+2.[Scenario Matrix 1: Digital Surveillance & Cyber Intrusion](#matrix-1-digital-surveillance--cyber-intrusion)
+3.[Scenario Matrix 2: Domestic Abuse & Coercive Control](#matrix-2-domestic-abuse--coercive-control)
+4.[Scenario Matrix 3: Physical Intrusion & Unconventional Harassment](#matrix-3-physical-intrusion--unconventional-harassment)
+5. [Scenario Matrix 4: Severe Transnational & State Threats](#matrix-4-severe-transnational--state-threats)
+6. [Systemic Gaps & Vulnerabilities](#systemic-gaps)
+7.[Reform Roadmap (2025-2026)](#reform-roadmap)
+8. [Contributing](#contributing)
 
 ---
 
-## 4. Pre-Trial: Bail & Remand
-
-### The O'Callaghan Principles
-Bail in Ireland is governed by the **Bail Act 1997**. The core test is whether the accused will **attend trial**, not whether they might reoffend.  This makes Ireland an outlier compared to many jurisdictions where public protection is a primary bail consideration.
-
-- **Refusal grounds**: Flight risk, interference with witnesses, or obstruction of justice.
-- **Conditions**: Surrender of passport, reporting to Gardaí, curfews, and (increasingly) electronic monitoring.
-- **Remand**: Custodial remand is used sparingly compared to other jurisdictions; most accused remain at home pending trial unless the offence is grave (e.g., murder, terrorism). 
-
-### Electronic Monitoring (Emerging)
-Electronic monitoring is provided for under existing legislation (Bail Act 1997, Criminal Justice Act 2006, Sex Offenders Act 2001) but has not been fully operationalised. The Department of Justice intends to go to tender for an EM service provider in 2025/2026.  However, the Irish Penal Reform Trust (IPRT) has warned that EM must be subject to human rights and proportionality assessments to avoid "net-widening" and disproportionate impact on marginalised communities. 
+## 🏛 Core Legal Frameworks
+A quick reference to the modern statutory frameworks underpinning these pathways:
+*   **Stalking & Surveillance:** *Criminal Justice (Miscellaneous Provisions) Act 2023*
+*   **Domestic Abuse:** *Domestic Violence Act 2018* & *Non-Fatal Offences Against the Person Act (NFOAPA) 1997* (inc. 2023 standalone strangulation offences)
+*   **Cyber & Device Hacking:** *Criminal Justice (Offences Relating to Information Systems) Act 2017*
+*   **Trespass & Public Order:** *Criminal Justice (Public Order) Act 1994*
+*   **Human Trafficking:** *Criminal Law (Human Trafficking) Act 2008*
+*   **Terrorism:** *Offences Against the State Acts 1939–1998*
 
 ---
 
-## 5. Sentencing Framework
+## 🚦 Complex Crime Scenario Matrices
 
-Ireland has **no binding sentencing guidelines** yet, though the Judicial Council's Sentencing Guidelines and Information Committee (SGIC) was established in 2020 and is drafting the first guidelines (domestic violence and dangerous driving causing death).  The **Judicial Council (Amendment) Bill 2026** will empower the Minister for Justice to request guidelines for specific crime areas and requires Oireachtas approval for adoption, following the Supreme Court's *Delaney* judgment (2024 IESC 10). 
+### Matrix 1: Digital Surveillance & Cyber Intrusion
+*Covering: Personal Device Hacking, Illegal Surveillance (e.g., AirTags), Online Impersonation.*
 
-### 5.1 First-Time & Low-Level Offenders
+| Crime Scenario | Statutory Basis | The Victim's Journey (Reporting & Protection) | The Offender's Journey (Investigation to Sentence) |
+| :--- | :--- | :--- | :--- |
+| **Personal Device Hack** <br>*(Remote access, intercepting emails/cameras)* | CJ (Info Systems) Act 2017 | **Reporting:** Must surrender device to Garda Cyber Crime Bureau (GNCCB); risks losing access to personal data for months.<br>**Protection:** Limited immediate physical protection unless linked to stalking. Relies on civil injunctions to stop data publication. | **Investigation:** IP tracing, encrypted data warrants.<br>**Pre-Trial:** High likelihood of bail unless a flight risk.<br>**Sentencing:** Up to 10 years for unauthorized access/interference. Often plea-bargained to suspended sentences for first-time offenders. |
+| **Illegal Tech Surveillance** <br>*(Using AirTags, hidden cameras, GPS trackers)* | CJ (Misc Provisions) Act 2023 (Stalking) | **Reporting:** Submits physical tracker or digital logs to Gardaí.<br>**Protection:** Can apply to District Court for an immediate **Civil Restraining Order** (no criminal conviction required). | **Investigation:** Device forensics, purchase history tracing.<br>**Pre-Trial:** Bail granted with strict conditions (device bans, exclusion zones).<br>**Sentencing:** Up to 10 years imprisonment under standalone Stalking offence. |
+| **Online Impersonation** <br>*(Creating fake profiles to harass/defame)* | CJ (Stalking) 2023 / NFOAPA 1997 | **Reporting:** Screenshots and URL gathering. Must liaise with tech platforms (often US-based) via Gardaí.<br>**Post-Trial:** Victim may need to pursue separate civil defamation suit for damages. | **Investigation:** Mutual Legal Assistance Treaties (MLAT) required to get data from Meta/Google.<br>**Pre-Trial:** Bail common; ordered to cease internet activity.<br>**Sentencing:** Fines, probation, or short custodial sentences. |
 
-Ireland has robust diversion mechanisms:
+### Matrix 2: Domestic Abuse & Coercive Control
+*Covering: Psychological isolation, coercive control, and extreme physical domestic violence.*
 
-| Mechanism | Description | Record Impact |
-|-----------|-------------|---------------|
-| **Adult Caution** | Gardaí issue a formal caution for minor offences instead of prosecution. Since 2019, a health-diversion approach applies to personal drug possession.  | No conviction recorded |
-| **Probation of Offenders Act 1907** | District Court judge dismisses charge without conviction and places the person under Probation Officer supervision for up to 3 years.  | No conviction recorded |
-| **Community Service Order** | 40–240 hours of unpaid work instead of custody.  | Conviction recorded |
-| **Fine** | Monetary penalty, often used for public order and minor traffic offences. | Conviction recorded |
+| Crime Scenario | Statutory Basis | The Victim's Journey (Reporting & Protection) | The Offender's Journey (Investigation to Sentence) |
+| :--- | :--- | :--- | :--- |
+| **Coercive Control** <br>*(Monitoring finances, isolation, psychological abuse)* | Domestic Violence Act 2018 (s.39) | **Reporting:** Immense evidentiary burden. Must document a "pattern" of micro-aggressions over time.<br>**Protection:** Can obtain Safety/Protection/Barring Orders from District Court.<br>**Post-Trial:** High risk of trauma-bonding relapses. | **Investigation:** Gardaí seize phones for message history; interview witnesses to isolation.<br>**Pre-Trial:** Remand in custody increasingly used if breach of civil orders occurs.<br>**Sentencing:** Up to 5 years. Often results in 2-3 year custodial sentences. |
+| **Severe Domestic Violence** <br>*(Non-fatal strangulation / severe assault)* | NFOAPA 1997 (Amended 2023) | **Reporting:** Medical evidence gathered (forensic medical examiner).<br>**Protection:** Immediate barring order. Gardaí can invoke victim support networks (e.g., Women's Aid). | **Investigation:** DNA, medical reports, photography of injuries.<br>**Pre-Trial:** High likelihood of bail refusal due to risk of witness interference/repeat offence.<br>**Sentencing:** Up to 10 years for strangulation; up to life for causing serious harm. |
 
-**Judicial approach**: Judges weigh remorse, employment, family circumstances, addiction issues, and whether treatment could reform the offender. 
+### Matrix 3: Physical Intrusion & Unconventional Harassment
+*Covering: Trespassing, Burglary, Impersonating State Officials, Acoustic/EM Harassment.*
 
-### 5.2 Repeat Offenders
+| Crime Scenario | Statutory Basis | The Victim's Journey (Reporting & Protection) | The Offender's Journey (Investigation to Sentence) |
+| :--- | :--- | :--- | :--- |
+| **Acoustic Violence / EM Harassment** <br>*(Using directed sound/frequencies to cause distress)* | NFOAPA 1997 / EPA Noise Regs | **Reporting:** Highly complex. Victim must prove the *source* and *intent* of the invisible emission. Often dismissed initially as mental health or neighbour disputes.<br>**Protection:** Relies on civil EPA noise injunctions initially. Medical reports required to prove psychiatric/physical harm. | **Investigation:** Requires expert acoustic forensics (rare at local Garda level).<br>**Pre-Trial:** Very rarely reaches criminal charge without physical injury. Bail guaranteed.<br>**Sentencing:** If prosecuted as Assault (s.3), up to 5 years. Usually diverted to civil/environmental courts. |
+| **Home Intrusion / Spying** <br>*(Trespassing at night to watch/intimidate)* | CJ (Public Order) Act 1994 (s.11/13) | **Reporting:** CCTV/Ring doorbell footage provided.<br>**Protection:** Victim left feeling unsafe at home. May request increased Garda patrols.<br>**Post-Trial:** Victim Impact Statement highlights loss of sanctity of the home. | **Investigation:** Identification via CCTV or being caught on premises.<br>**Pre-Trial:** Summary disposal in District Court unless linked to burglary/stalking.<br>**Sentencing:** Fines, community service, or up to 6 months per offence. |
+| **State Impersonation** <br>*(Posing as a Garda to gain entry or coerce)* | Garda Síochána Act 2005 (s.60) | **Reporting:** Victim reports breach of trust. High psychological impact due to weaponization of state authority.<br>**Protection:** Immediate Garda response; treating the incident as a high-priority threat. | **Investigation:** Treated as a serious breach of state security. Rapid arrest.<br>**Pre-Trial:** Bail may be granted but with strict reporting conditions.<br>**Sentencing:** Up to 5 years imprisonment. Custody highly likely to maintain public trust. |
 
-- **Previous convictions** are a statutory aggravating factor. 
-- For certain drug and firearms offences, **presumptive mandatory minimum sentences** apply (e.g., 10 years for drugs above threshold value), though judges may depart in "exceptional circumstances." 
-- The Law Reform Commission recommended repealing these presumptive minimums, and some were repealed by the **Criminal Justice (Amendment) Act 2021**, but they remain in force for serious organised drug trafficking and firearms offences. 
+### Matrix 4: Severe Transnational & State Threats
+*Covering: Human Trafficking, Domestic Terrorism.*
 
-### 5.3 Suspended Sentences
-
-Legal basis: **Section 99 of the Criminal Justice Act 2006**.
-
-- A judge imposes a prison term but suspends it (fully or partially) subject to conditions.
-- If the offender breaches conditions or commits another offence during the operational period, the sentence can be activated.
-- **Cannot be used** where a mandatory sentence applies (e.g., murder). 
-- **Usage trend**: Declined from **40% of Circuit Court sanctions in 2006 to roughly 15–16% by 2022**, suggesting underutilisation despite evidence that short prison sentences are ineffective. 
-
-### 5.4 Community Sanctions
-
-The Probation Service supervises:
-- Community Service Orders
-- Probation Orders
-- Community Return (post-release supervision)
-
-**Budget 2026** increased Probation Service funding by **11.2%** to recruit **100 additional staff**, expand restorative justice, and scale up supervised temporary release schemes nationally.  The **Criminal Law and Civil Law (Miscellaneous Provisions) Bill 2025/2026** includes provisions to strengthen community service as an alternative to custody. 
+| Crime Scenario | Statutory Basis | The Victim's Journey (Reporting & Protection) | The Offender's Journey (Investigation to Sentence) |
+| :--- | :--- | :--- | :--- |
+| **Human Trafficking** <br>*(Coercion into labour, domestic servitude, or sex work)* | Criminal Law (Human Trafficking) Act 2008 | **Reporting:** Often distrustful of authorities; fears deportation. Heavily reliant on NGOs (e.g., Ruhama).<br>**Protection:** National Referral Mechanism (NRM) provides housing/support, but historically flawed and slow.<br>**Trial:** Re-traumatization risk high during cross-examination. | **Investigation:** Multi-agency (Garda National Protective Services, Interpol, CAB).<br>**Pre-Trial:** Remand in custody (severe flight risk). Assets frozen by Criminal Assets Bureau.<br>**Sentencing:** Up to life imprisonment. *Note: ROI has historically poor conviction rates.* |
+| **Domestic Terrorism** <br>*(Paramilitary activity, directing an unlawful org)* | Offences Against the State Acts | **Victim/State:** The "victim" is the State/Public. Witnesses are placed under extreme protection (Witness Security Programme) due to severe intimidation risks. | **Investigation:** Covert surveillance by National Crime Security Intelligence.<br>**Trial:** Sent to **Special Criminal Court (SCC)** (3 judges, no jury).<br>**Sentencing:** Lengthy determinate sentences (e.g., 10-15 years), served in high-security wings (e.g., Portlaoise Prison). |
 
 ---
 
-## 6. Post-Conviction: Release, Remission & Parole
+## 🛑 Systemic Gaps & Vulnerabilities
 
-### 6.1 Remission (The Default Release Mechanism)
+While the legislation looks comprehensive on paper, practical application reveals several severe bottlenecks:
 
-For determinate (fixed-term) sentences, release is governed by **Rule 59 of the Prison Rules 2007**, not by a parole board. 
-
-| Type | Reduction | Criteria |
-|------|-----------|----------|
-| **Standard Remission** | **25%** (one-quarter) | Automatic for good behaviour; applies to most prisoners.  |
-| **Enhanced Remission** | Up to **33%** (one-third) | Requires constructive engagement in authorised structured activity and Ministerial satisfaction that the prisoner is less likely to reoffend and can reintegrate.  |
-
-**Exclusions**: Life sentences; prisoners committed for contempt; debtors; and certain serious organised crime offences where statute explicitly excludes remission. 
-
-**Critical issue**: Enhanced remission is applied inconsistently. IPRT research found that older prisoners, prisoners with disabilities, and minority ethnic groups do not have equal access. The 2014 Strategic Review of Penal Policy recommended greater transparency and consistency, but a 2017 IPS review was never published. 
-
-### 6.2 Temporary Release
-
-Governed by the **Criminal Justice (Temporary Release of Prisoners) Act 2003**. The Minister for Justice grants temporary release based on: 
-
-- Nature/gravity of offence
-- Period served
-- Risk to public safety
-- Risk of reoffending during release
-- Risk of failing to return to custody
-- Conduct in custody
-- Engagement in therapeutic services
-- Reports from Governor, Gardaí, Probation Officer
-
-All temporary releases are conditional; breach results in recall and potential refusal of future release. 
-
-### 6.3 Parole Board (Life Sentences Only)
-
-The **Parole Board of Ireland** is a non-statutory advisory body. 
-
-- **Current remit**: Reviews prisoners serving **life sentences only**. It does **not** review determinate sentences, despite repeated commitments to expand its remit to prisoners serving 8+ years. 
-- **Function**: Recommends temporary release to the Minister for Justice; recommendations are not binding.
-- **Timeline**: Approximately **18 months** from application to decision. 
-- **Review frequency**: Annually for sentences under 10 years; every 2–3 years for longer sentences. 
-
-**Systemic gap**: Unlike the UK/NI, Ireland has **no parole decision-making for determinate long-term prisoners**. Release is essentially an executive function of the Minister based on IPS recommendations, with limited procedural transparency. IPRT has repeatedly called for statutory parole reform. 
+1. **The Cyber Forensics Bottleneck:** Victims of personal device hacks must often surrender their phones to the Garda National Cyber Crime Bureau (GNCCB) for 6–12 months due to backlogs, effectively punishing the victim.
+2. **Invisible Evidentiary Hurdles:** Proving *Coercive Control* or *Acoustic/EM Harassment* requires specialized forensics (psychological or acoustic) that local Gardaí lack training in, leading to under-prosecution.
+3. **Trafficking Conviction Failures:** Ireland sits on the US State Department’s Tier 2 Watchlist for human trafficking due to over-reliance on traumatized victim testimony rather than proactive financial/money-laundering prosecutions.
+4. **Bail Act Limitations:** While the 1997 Bail Act allows refusal based on the risk of witness intimidation, Ireland’s constitutional presumption of bail means many cyber-stalkers and coercive controllers remain in the community pre-trial.
 
 ---
 
-## 7. Criminal Records & Rehabilitation
+## 🛠 Reform Roadmap
 
-### Spent Convictions Act 2016
-
-Ireland’s regime is **significantly narrower** than the UK/NI system: 
-
-| Feature | ROI Rule |
-|---------|----------|
-| **Waiting period** | 7 years |
-| **Eligible offences** | All minor motoring/public order offences; **one** non-motoring conviction if sentence was **< 12 months custody** or **< 24 months non-custodial** |
-| **Ineligible offences** | Sexual offences; Central Criminal Court convictions; any offence with prison term ≥ 12 months |
-| **Multiple convictions** | If you have **more than one** eligible non-motoring conviction, **none** become spent |
-| **Disclosure** | Garda vetting for certain roles (children, vulnerable adults, security) may reveal spent convictions |
-
-**Reform pressure**: There are ongoing calls to expand the scheme to cover sentences up to 24 months custody / 48 months non-custodial and to remove the "one conviction" cap. 
-
-### Garda Vetting
-
-For employment in childcare, healthcare, and security sectors, the **National Vetting Bureau** conducts disclosure. Standard disclosure may reveal all convictions (spent and unspent) depending on the role, creating a significant barrier to rehabilitation for those with even minor records. 
+### Proposed Pull Requests / "Patches" to the Justice System
+- [ ] **Establish Fast-Track Digital Forensics:** Create regional cyber-hubs so victims of illegal surveillance/device hacks don't lose their hardware for months.
+-[ ] **Acoustic/EM Standard Operating Procedures:** Draft DPP guidelines for investigating unconventional physical/acoustic harassment to prevent frontline dismissal.
+- [ ] **Financial-First Trafficking Prosecutions:** Pivot human trafficking investigations to focus on organized crime and money laundering (the "Al Capone" method) to reduce reliance on victim testimony.
+- [ ] **Specialist Domestic Abuse Courts:** Mandate trauma-informed training for all judges presiding over coercive control and severe stalking cases.
 
 ---
 
-## 8. Current Reform Agenda (2025–2026)
+## 🤝 Contributing
+This is an open, living document intended for legal researchers, criminologists, and civic-tech developers. 
+* Spot a legislative change? Open an **Issue**.
+* Have case-law precedent regarding Acoustic Violence or Coercive Control? Submit a **Pull Request**.
 
-| Reform | Status | Details |
-|--------|--------|---------|
-| **Electronic Monitoring** | Tender planned for 2025/2026 | Cross-agency project to operationalise EM for bail, community sanctions, and post-release supervision.  |
-| **Probation Service Expansion** | Funded in Budget 2026 | 11.2% funding increase; 100 new staff; expanded restorative justice and supervised temporary release.  |
-| **Community Sanctions Strengthening** | In Criminal Law and Civil Law (Miscellaneous Provisions) Bill 2025/2026 | Aims to divert more offenders from custody through structured community penalties.  |
-| **Sentencing Guidelines** | Judicial Council SGIC drafting | First guidelines on domestic violence and dangerous driving causing death. Ministerial power to request guidelines for specific crimes under 2026 Bill.  |
-| **Parole Board Expansion** | Committed but not delivered | Repeated promises to allow long-term determinate prisoners (8+ years) to apply for parole; regulations not yet materialised.  |
-| **Special Criminal Court Reform** | Under consultation | Government accepts majority recommendations of Peart Review Group in principle; new standing non-jury court proposed.  |
-| **Prisoner Mental Health** | Budget 2026 allocation | €3 million for mental health interventions; needs analysis to be completed.  |
-
----
-
-## 9. Critical Assessment & Systemic Gaps
-
-### Strengths
-1. **Strong diversion for first-time offenders**: The Probation of Offenders Act 1907, adult cautions, and community service provide effective off-ramps before a criminal record is created.
-2. **Judicial discretion**: Allows individualised justice and avoids the rigidity of mandatory sentencing regimes.
-3. **Low pre-trial detention rate**: The O'Callaghan principles keep most accused in the community pending trial, reducing unnecessary incarceration.
-
-### Gaps & Criticisms
-1. **Narrow spent convictions scheme**: The "one eligible conviction" rule and 12-month custody cap mean many people carry minor convictions indefinitely, blocking employment and housing. 
-2. **Parole Board limitations**: The Board only reviews life sentences. Long-term determinate prisoners have no structured parole pathway — release depends on executive discretion and remission. 
-3. **Suspended sentence decline**: Despite evidence that short prison sentences are counterproductive, judicial use of suspended sentences has dropped sharply. There is no legislative presumption to suspend short terms (unlike the UK/NI's new 12-month presumption). 
-4. **Inconsistent enhanced remission**: Lack of transparency and potential discrimination in who gets enhanced remission; unpublished IPS reviews. 
-5. **Court backlogs**: While the Supreme Court has no significant backlog, lower courts face delays. The Court of Appeal saw a **24% increase in criminal cases** between 2021–2023, requiring rebalancing of judicial resources. 
-6. **Electronic monitoring risks**: Without robust safeguards, EM could expand state surveillance into marginalised communities without reducing prison populations (net-widening). 
-7. **No binding sentencing guidelines**: Wide disparity in sentencing for similar offences undermines public confidence and equality before the law. 
-
----
-
-## 10. Detailed Scenario Matrix: How Offenders Navigate the ROI System
-
-| Profile | Stage | Likely Outcome | Why They Remain at Home |
-|---------|-------|---------------|------------------------|
-| **First-time shoplifter (€200)** | Investigation → Adult Caution | **No conviction** | Garda caution or Probation of Offenders Act dismissal with supervision.  |
-| **First-time minor assault (pub fight)** | District Court → Conviction | **Community service + fine** | No custody for first-time low-level violence unless aggravating factors exist.  |
-| **Repeat burglar (3rd offence)** | Circuit Court → Conviction | **2 years prison, 18 months suspended** | Judge may suspend portion with strict probation; if breached, activated.  |
-| **Drug mule (€50k+ value)** | Circuit Court → Conviction | **10 years presumptive minimum** | Judge can only depart in "exceptional circumstances"; likely immediate custody.  |
-| **White-collar fraud (€500k)** | Circuit Court → Conviction → Appeal | **3 years prison, bail pending appeal** | Appeals to Court of Appeal can take years; bail often granted for non-violent offenders. |
-| **Life sentence (murder)** | Central Criminal Court → Conviction | **Life sentence, parole review at ~12–15 years** | Parole Board reviews after minimum term; temporary release with strict conditions if approved.  |
-| **Determinate 8-year sentence (serious assault)** | Circuit Court → Conviction | **Release after 6 years (standard remission) or ~5.3 years (enhanced)** | No parole board involvement; Minister grants temporary release based on IPS/Probation reports.  |
-| **Mental health crisis (unfit to plead)** | Central Criminal Court → Finding | **Hospital order** | Criminal Law (Insanity) Act 2006; Central Mental Hospital or community treatment order. |
-| **Juvenile (16, robbery)** | Children Court → Conviction | **Supervision order / detention school** | Children Act 2001 prioritises rehabilitation; detention is last resort. |
-| **Organised crime (directing gang)** | Special Criminal Court → Conviction | **Long determinate sentence, no remission** | Statute may exclude remission; SCC non-jury trial.  |
-
----
-
-## 11. Recommendations
-
-### Immediate (0–12 months)
-1. **Publish the enhanced remission review**: The 2017 IPS review must be released, with equality monitoring data and clear criteria for prisoners and advisors. 
-2. **Expand Parole Board remit by regulation**: Deliver the long-promised regulations allowing 8+ year prisoners to access parole review, with additional Board funding. 
-3. **Operationalise EM with safeguards**: Ensure electronic monitoring is overseen by the Probation Service, not purely punitive, and subject to proportionality assessments. 
-
-### Medium-term (1–3 years)
-4. **Reform spent convictions**: Expand the 2016 Act to allow multiple minor convictions to become spent and raise the custody threshold to 24 months, aligning with modern rehabilitation principles. 
-5. **Legislate a presumption to suspend short sentences**: Introduce a statutory presumption to suspend custodial sentences of ≤12 months (as the UK/NI has done), with exceptions for serious violence or breach of orders. 
-6. **Accelerate sentencing guidelines**: The Judicial Council should publish principle-based guidelines first (purposes of sentencing, mitigating/aggravating factors) before offence-specific guidelines. 
-
-### Structural (3–5 years)
-7. **Replace executive release with statutory parole**: Move from a Ministerial discretion model to an independent Parole Board with statutory authority over all long-term prisoners, binding reasons, and appeal rights. 
-8. **Invest in court infrastructure**: Address Circuit Court and Court of Appeal backlogs through additional judicial appointments and digital case management. 
-9. **Restorative justice scaling**: Use the Probation Service expansion to make restorative justice available nationally for suitable offences, not just pilot programmes. 
-
----
-
-**Sources**: Citizens Information ; Courts Service ; Gov.ie / Department of Justice ; IPRT ; Judicial Council ; Legal Blog ; Oireachtas debates ; OIC ; Irish Legal ; Maynooth University ; academic research .
+> **Disclaimer:** This repository is for educational and research purposes. It does not constitute formal legal advice. For legal assistance in the Republic of Ireland, consult a qualified solicitor or contact [FLAC (Free Legal Advice Centres)](https://www.flac.ie/). If you are in immediate danger, dial `999` or `112`.
